@@ -1,0 +1,25 @@
+{
+  "project": "Bank Marketing Prediction and Customer Segmentation",
+  "model": "CatBoostClassifier",
+  "clustering": {
+    "clusters": 4,
+    "silhouette_score": 0.25684028991294516
+  },
+  "threshold": 0.6499999999999997,
+  "test_metrics": {
+    "accuracy": 0.878975479485312,
+    "roc_auc": 0.8146613637435728,
+    "pr_auc": 0.48716442551317446,
+    "precision": 0.47098402018502944,
+    "recall": 0.603448275862069,
+    "f1": 0.5290505432215399
+  },
+  "versions": {
+    "python": "3.13.16",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "scikit_learn": "1.6.1",
+    "catboost": "1.2.10",
+    "joblib": "1.6.0"
+  }
+}
